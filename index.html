@@ -69,16 +69,113 @@
       </thead>
       <tbody>
         <tr>
-            <td>Juan</td>
-            <td>Perez</td>
-            <td>20</td>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>20</td>
         </tr>
         <tr>
-            <td>Byron</td>
-            <td>Bustos</td>
-            <td>42</td>
+          <td>Byron</td>
+          <td>Bustos</td>
+          <td>42</td>
         </tr>
       </tbody>
     </table>
+
+    <h2>Formularios</h2>
+    <form action="">
+      <div>
+        <label for="">Nombre</label>
+        <input type="text" />
+      </div>
+      <!-- ctrl k 6+ ctrl c para comentarios -->
+      <div>
+        <label for="">Edad</label>
+        <input type="number" />
+      </div>
+      <div>
+        <label for="">Email</label>
+        <input type="email" />
+      </div>
+      <div>
+        <label for="">Contraseña</label>
+        <input type="password" required />
+      </div>
+
+      <textarea
+        name=""
+        id=""
+        placeholder="ingrese un comentario"
+        rows="10"
+        cols="40"
+      >
+      </textarea>
+      <h2>Seleccione Lenguajes de programación que usted conoce</h2>
+      <div>
+        <label for="">Java</label>
+        <input type="checkbox" name="" id="" />
+      </div>
+      <div>
+        <label for="">C++</label>
+        <input type="checkbox" name="" id="" />
+      </div>
+      <div>
+        <label for="">Kotlin</label>
+        <input type="checkbox" name="" id="" />
+      </div>
+
+      <p>Seleccione su nivel de ingles</p>
+      <div>
+        <label for="">A1</label>
+        <input type="radio" name="ingles" />
+      </div>
+      <div>
+        <label for="">A2</label>
+        <input type="radio" name="ingles" />
+      </div>
+      <div>
+        <label for="">B1</label>
+        <input type="radio" name="ingles" />
+      </div>
+      <div>
+        <label for="">B2</label>
+        <input type="radio" name="ingles" />
+      </div>
+
+      <div>
+        <p>Seleccione una provincia</p>
+        <select name="" id="">
+          <option value="">Seleccione una provincia</option>
+          <option value="">La paz</option>
+          <option value="">Cochabamba</option>
+          <option value="">Santa Cruz</option>
+          <option value="">Tarifa</option>
+        </select>
+
+        <p>Seleccione el semestre actual</p>
+        <select name="" id="">
+          <option value="">Primer semestre</option>
+          <option value="">Segundo semestre</option>
+          <option value="">Tercer semestre</option>
+          <option value="" selected>Cuarto semestre</option>
+        </select>
+      </div>
+
+      <div>
+        <input type="file" />
+      </div>
+
+      <div>
+        <input type="date" />
+        <input type="time" />
+        <input type="color" />
+      </div>
+      <br /><br /><br />
+      <div>
+        <input type="submit" value="Enviar" />
+        <button>Registrar</button>
+      </div>
+    </form>
+
+    <br /><br /><br /><br /><br /><br />
   </body>
 </html>
